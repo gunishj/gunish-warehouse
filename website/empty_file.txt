@@ -1,1 +1,3 @@
-this is my first attempt to create a folder in github
+The above folder contains the code for my first website : https://gunishjha.netlify.com
+
+i have used basic html and css styling only in my website
