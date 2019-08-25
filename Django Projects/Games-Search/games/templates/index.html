@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Games</h1>
+    <ul>
+        {% for game in games %}
+        <li>{{ game.title }} || {{ game.platform }} || {{ game.score }} || {{ game.genre }} || {{ game.editors_choice }} </li>
+        {% endfor %}
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+{% endblock %}
